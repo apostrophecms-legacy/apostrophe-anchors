@@ -1,9 +1,7 @@
-# apostrophe-anchor-widgets
+# apostrophe-anchors
 Current status: WIP
 
-An `improve` module that adds anchoring capability to existing `apostrophe-widgets`.
-
-## TODOs
+An `improve` module that adds an ID wrapper around `apostrophe-widgets`, useful for navigating to widgets via anchors.
 
 ## Options
 
@@ -19,7 +17,7 @@ Pass `anchors: false` as part of your widget configuration.
 ```
 
 ### Custom attribute in the markup
-The default attribute is `id`.
+This would be useful if doing custom front-end behavior. The default attribute is `id`.
 
 ```javascript
   // app.js
@@ -29,3 +27,6 @@ The default attribute is `id`.
   }
 ```
 The above will wrap your widget in `<div class="apos-area-widget-wrapper ui-draggable" data-apos-widget-wrapper="image" data-override="MY-VALUE">`
+
+## TODOs
+[] publish to npm
