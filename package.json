@@ -1,14 +1,14 @@
 {
-  "name": "apostrophe-anchor-widgets",
+  "name": "apostrophe-anchors",
   "version": "1.0.0",
-  "description": "An `improve` module that adds anchoring capability to existing `apostrophe-widgets`.",
+  "description": "An `improve` bundle that adds anchoring capability to existing `apostrophe-widgets`.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apostrophecms/apostrophe-anchor-widgets.git"
+    "url": "git+https://github.com/apostrophecms/apostrophe-anchors.git"
   },
   "keywords": [
     "anchor",
@@ -22,7 +22,7 @@
   "author": "P'unk Avenue LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/apostrophecms/apostrophe-anchor-widgets/issues"
+    "url": "https://github.com/apostrophecms/apostrophe-anchors/issues"
   },
-  "homepage": "https://github.com/apostrophecms/apostrophe-anchor-widgets#readme"
+  "homepage": "https://github.com/apostrophecms/apostrophe-anchors#readme"
 }
