@@ -1,8 +1,9 @@
 module.exports = {
   moogBundle: {
     modules: [
-      'apostrophe-anchor-widgets',
-      'apostrophe-anchor-areas',
+      'apostrophe-anchors-widgets',
+      'apostrophe-anchors-areas',
+      'apostrophe-anchors-rich-text-widgets',
     ],
     directory: 'lib/modules'
   }

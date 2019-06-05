@@ -1,0 +1,10 @@
+{% extends "widgetBase.html" %}
+{% if data.manager.options.anchorsAttribute %}
+  {% set anchorAttr = data.manager.options.anchorsAttribute %}
+{% else %}
+  {% set anchorAttr = 'id' %}
+{% endif %}
+
+{% block extraWrapperAttributes %}
+  {%- if data.widget.anchorId -%} {{ anchorAttr }}="{{ data.widget.anchorId }}"{%- endif -%}
+{% endblock -%}
