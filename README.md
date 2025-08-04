@@ -1,3 +1,7 @@
+# ⛔️ **DEPRECATED** — do not use for new projects
+
+See [our current docs](https://docs.apostrophecms.org/)
+
 # apostrophe-anchors
 
 An `improve` module that adds an ID wrapper around `apostrophe-widgets`, useful for navigating to widgets via anchors.
